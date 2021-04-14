@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B7FA69D6DF0A394DA1DCA20 /* libPods-paymentnepaldemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D5FF4B6F654D8791D1F36B /* libPods-paymentnepaldemo.a */; };
+		C772E15921231A94001B8A11 /* GPSHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14121231A92001B8A11 /* GPSHelpers.m */; };
+		C772E15A21231A94001B8A11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C772E14321231A92001B8A11 /* README.md */; };
+		C772E15B21231A94001B8A11 /* GPSSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14421231A92001B8A11 /* GPSSigner.m */; };
+		C772E15C21231A94001B8A11 /* GPSPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14521231A92001B8A11 /* GPSPaymentResponse.m */; };
+		C772E15D21231A94001B8A11 /* GPSPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14621231A92001B8A11 /* GPSPaymentRequest.m */; };
+		C772E15E21231A94001B8A11 /* GPSReccurentParams.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14821231A93001B8A11 /* GPSReccurentParams.m */; };
+		C772E15F21231A94001B8A11 /* GPSCardThreeDs.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14A21231A93001B8A11 /* GPSCardThreeDs.m */; };
+		C772E16021231A94001B8A11 /* GPSCommissionMode.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14C21231A93001B8A11 /* GPSCommissionMode.m */; };
+		C772E16121231A94001B8A11 /* GPSCardTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14D21231A93001B8A11 /* GPSCardTokenResponse.m */; };
+		C772E16221231A94001B8A11 /* GPSRestRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E14E21231A93001B8A11 /* GPSRestRequester.m */; };
+		C772E16321231A94001B8A11 /* GPSConnectionProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E15121231A93001B8A11 /* GPSConnectionProfile.m */; };
+		C772E16421231A94001B8A11 /* GPSTransactionDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E15321231A93001B8A11 /* GPSTransactionDetails.m */; };
+		C772E16521231A94001B8A11 /* GPSCardTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E15421231A93001B8A11 /* GPSCardTokenRequest.m */; };
+		C772E16621231A94001B8A11 /* GPSPayService.m in Sources */ = {isa = PBXBuildFile; fileRef = C772E15821231A94001B8A11 /* GPSPayService.m */; };
+		F9739FBC1E4ECBBB00613F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9739FBB1E4ECBBB00613F4E /* main.m */; };
+		F9739FBF1E4ECBBB00613F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9739FBE1E4ECBBB00613F4E /* AppDelegate.m */; };
+		F9739FC21E4ECBBB00613F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9739FC11E4ECBBB00613F4E /* ViewController.m */; };
+		F9739FC51E4ECBBB00613F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9739FC31E4ECBBB00613F4E /* Main.storyboard */; };
+		F9739FC71E4ECBBB00613F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9739FC61E4ECBBB00613F4E /* Assets.xcassets */; };
+		F9739FCA1E4ECBBB00613F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9739FC81E4ECBBB00613F4E /* LaunchScreen.storyboard */; };
+		F974A44C1E50C40400F683BC /* FSGPSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F974A44B1E50C40400F683BC /* FSGPSAPI.m */; };
+		F974A44F1E50C49C00F683BC /* FSCreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F974A44D1E50C49C00F683BC /* FSCreditCard.m */; };
+		F974A4521E50C59E00F683BC /* card_3ds_form in Resources */ = {isa = PBXBuildFile; fileRef = F974A4511E50C59E00F683BC /* card_3ds_form */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4D5FF4B6F654D8791D1F36B /* libPods-paymentnepaldemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paymentnepaldemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C772E13D21231A92001B8A11 /* GPSPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSPay.h; path = "iOS-SDK/GPSPay.h"; sourceTree = SOURCE_ROOT; };
+		C772E13E21231A92001B8A11 /* GPSRestRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSRestRequester.h; path = "iOS-SDK/GPSRestRequester.h"; sourceTree = SOURCE_ROOT; };
+		C772E13F21231A92001B8A11 /* GPSCardTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSCardTokenRequest.h; path = "iOS-SDK/GPSCardTokenRequest.h"; sourceTree = SOURCE_ROOT; };
+		C772E14021231A92001B8A11 /* GPSCommissionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSCommissionMode.h; path = "iOS-SDK/GPSCommissionMode.h"; sourceTree = SOURCE_ROOT; };
+		C772E14121231A92001B8A11 /* GPSHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSHelpers.m; path = "iOS-SDK/GPSHelpers.m"; sourceTree = SOURCE_ROOT; };
+		C772E14221231A92001B8A11 /* GPSTransactionDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSTransactionDetails.h; path = "iOS-SDK/GPSTransactionDetails.h"; sourceTree = SOURCE_ROOT; };
+		C772E14321231A92001B8A11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "iOS-SDK/README.md"; sourceTree = SOURCE_ROOT; };
+		C772E14421231A92001B8A11 /* GPSSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSSigner.m; path = "iOS-SDK/GPSSigner.m"; sourceTree = SOURCE_ROOT; };
+		C772E14521231A92001B8A11 /* GPSPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSPaymentResponse.m; path = "iOS-SDK/GPSPaymentResponse.m"; sourceTree = SOURCE_ROOT; };
+		C772E14621231A92001B8A11 /* GPSPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSPaymentRequest.m; path = "iOS-SDK/GPSPaymentRequest.m"; sourceTree = SOURCE_ROOT; };
+		C772E14721231A92001B8A11 /* GPSPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSPaymentRequest.h; path = "iOS-SDK/GPSPaymentRequest.h"; sourceTree = SOURCE_ROOT; };
+		C772E14821231A93001B8A11 /* GPSReccurentParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSReccurentParams.m; path = "iOS-SDK/GPSReccurentParams.m"; sourceTree = SOURCE_ROOT; };
+		C772E14921231A93001B8A11 /* GPSSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSSigner.h; path = "iOS-SDK/GPSSigner.h"; sourceTree = SOURCE_ROOT; };
+		C772E14A21231A93001B8A11 /* GPSCardThreeDs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSCardThreeDs.m; path = "iOS-SDK/GPSCardThreeDs.m"; sourceTree = SOURCE_ROOT; };
+		C772E14B21231A93001B8A11 /* GPSCardTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSCardTokenResponse.h; path = "iOS-SDK/GPSCardTokenResponse.h"; sourceTree = SOURCE_ROOT; };
+		C772E14C21231A93001B8A11 /* GPSCommissionMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSCommissionMode.m; path = "iOS-SDK/GPSCommissionMode.m"; sourceTree = SOURCE_ROOT; };
+		C772E14D21231A93001B8A11 /* GPSCardTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSCardTokenResponse.m; path = "iOS-SDK/GPSCardTokenResponse.m"; sourceTree = SOURCE_ROOT; };
+		C772E14E21231A93001B8A11 /* GPSRestRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSRestRequester.m; path = "iOS-SDK/GPSRestRequester.m"; sourceTree = SOURCE_ROOT; };
+		C772E14F21231A93001B8A11 /* GPSCardThreeDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSCardThreeDs.h; path = "iOS-SDK/GPSCardThreeDs.h"; sourceTree = SOURCE_ROOT; };
+		C772E15021231A93001B8A11 /* GPSPayService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSPayService.h; path = "iOS-SDK/GPSPayService.h"; sourceTree = SOURCE_ROOT; };
+		C772E15121231A93001B8A11 /* GPSConnectionProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSConnectionProfile.m; path = "iOS-SDK/GPSConnectionProfile.m"; sourceTree = SOURCE_ROOT; };
+		C772E15221231A93001B8A11 /* GPSConnectionProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSConnectionProfile.h; path = "iOS-SDK/GPSConnectionProfile.h"; sourceTree = SOURCE_ROOT; };
+		C772E15321231A93001B8A11 /* GPSTransactionDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSTransactionDetails.m; path = "iOS-SDK/GPSTransactionDetails.m"; sourceTree = SOURCE_ROOT; };
+		C772E15421231A93001B8A11 /* GPSCardTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSCardTokenRequest.m; path = "iOS-SDK/GPSCardTokenRequest.m"; sourceTree = SOURCE_ROOT; };
+		C772E15521231A93001B8A11 /* GPSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSHelpers.h; path = "iOS-SDK/GPSHelpers.h"; sourceTree = SOURCE_ROOT; };
+		C772E15621231A93001B8A11 /* GPSReccurentParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSReccurentParams.h; path = "iOS-SDK/GPSReccurentParams.h"; sourceTree = SOURCE_ROOT; };
+		C772E15721231A93001B8A11 /* GPSPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSPaymentResponse.h; path = "iOS-SDK/GPSPaymentResponse.h"; sourceTree = SOURCE_ROOT; };
+		C772E15821231A94001B8A11 /* GPSPayService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSPayService.m; path = "iOS-SDK/GPSPayService.m"; sourceTree = SOURCE_ROOT; };
+		EA1B3D206A268082266AFBA1 /* Pods-paymentnepaldemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentnepaldemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-paymentnepaldemo/Pods-paymentnepaldemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E37A5800C84CF6AD288567 /* Pods-paymentnepaldemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentnepaldemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-paymentnepaldemo/Pods-paymentnepaldemo.release.xcconfig"; sourceTree = "<group>"; };
+		F9739FB71E4ECBBB00613F4E /* paymentnepaldemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paymentnepaldemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9739FBB1E4ECBBB00613F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9739FBD1E4ECBBB00613F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9739FBE1E4ECBBB00613F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9739FC01E4ECBBB00613F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9739FC11E4ECBBB00613F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9739FC41E4ECBBB00613F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9739FC61E4ECBBB00613F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9739FC91E4ECBBB00613F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9739FCB1E4ECBBB00613F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F974A44A1E50C40400F683BC /* FSGPSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGPSAPI.h; sourceTree = "<group>"; };
+		F974A44B1E50C40400F683BC /* FSGPSAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGPSAPI.m; sourceTree = "<group>"; };
+		F974A44D1E50C49C00F683BC /* FSCreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCreditCard.m; sourceTree = "<group>"; };
+		F974A44E1E50C49C00F683BC /* FSCreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCreditCard.h; sourceTree = "<group>"; };
+		F974A4511E50C59E00F683BC /* card_3ds_form */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = card_3ds_form; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9739FB41E4ECBBB00613F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7FA69D6DF0A394DA1DCA20 /* libPods-paymentnepaldemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F50982E0E13A8C6D25F930F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D5FF4B6F654D8791D1F36B /* libPods-paymentnepaldemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E392E4DC1A08B3F6A9F0BB2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B3D206A268082266AFBA1 /* Pods-paymentnepaldemo.debug.xcconfig */,
+				F3E37A5800C84CF6AD288567 /* Pods-paymentnepaldemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9739FAE1E4ECBBB00613F4E = {
+			isa = PBXGroup;
+			children = (
+				F9739FB91E4ECBBB00613F4E /* paymentnepaldemo */,
+				F9739FB81E4ECBBB00613F4E /* Products */,
+				E392E4DC1A08B3F6A9F0BB2F /* Pods */,
+				0F50982E0E13A8C6D25F930F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9739FB81E4ECBBB00613F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9739FB71E4ECBBB00613F4E /* paymentnepaldemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9739FB91E4ECBBB00613F4E /* paymentnepaldemo */ = {
+			isa = PBXGroup;
+			children = (
+				F974A4561E50D0F100F683BC /* App Deligate */,
+				F974A4551E50D0E300F683BC /* Controllers */,
+				F974A4531E50D0BC00F683BC /* Models */,
+				F974A4501E50C59300F683BC /* Resources */,
+				F9739FC31E4ECBBB00613F4E /* Main.storyboard */,
+				F9739FC61E4ECBBB00613F4E /* Assets.xcassets */,
+				F9739FC81E4ECBBB00613F4E /* LaunchScreen.storyboard */,
+				F9739FCB1E4ECBBB00613F4E /* Info.plist */,
+				F9739FBA1E4ECBBB00613F4E /* Supporting Files */,
+			);
+			path = paymentnepaldemo;
+			sourceTree = "<group>";
+		};
+		F9739FBA1E4ECBBB00613F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9739FBB1E4ECBBB00613F4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F974A4241E50C39F00F683BC /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				C772E14321231A92001B8A11 /* README.md */,
+				C772E14F21231A93001B8A11 /* GPSCardThreeDs.h */,
+				C772E14A21231A93001B8A11 /* GPSCardThreeDs.m */,
+				C772E13F21231A92001B8A11 /* GPSCardTokenRequest.h */,
+				C772E15421231A93001B8A11 /* GPSCardTokenRequest.m */,
+				C772E14B21231A93001B8A11 /* GPSCardTokenResponse.h */,
+				C772E14D21231A93001B8A11 /* GPSCardTokenResponse.m */,
+				C772E14021231A92001B8A11 /* GPSCommissionMode.h */,
+				C772E14C21231A93001B8A11 /* GPSCommissionMode.m */,
+				C772E15221231A93001B8A11 /* GPSConnectionProfile.h */,
+				C772E15121231A93001B8A11 /* GPSConnectionProfile.m */,
+				C772E15521231A93001B8A11 /* GPSHelpers.h */,
+				C772E14121231A92001B8A11 /* GPSHelpers.m */,
+				C772E13D21231A92001B8A11 /* GPSPay.h */,
+				C772E14721231A92001B8A11 /* GPSPaymentRequest.h */,
+				C772E14621231A92001B8A11 /* GPSPaymentRequest.m */,
+				C772E15721231A93001B8A11 /* GPSPaymentResponse.h */,
+				C772E14521231A92001B8A11 /* GPSPaymentResponse.m */,
+				C772E15021231A93001B8A11 /* GPSPayService.h */,
+				C772E15821231A94001B8A11 /* GPSPayService.m */,
+				C772E15621231A93001B8A11 /* GPSReccurentParams.h */,
+				C772E14821231A93001B8A11 /* GPSReccurentParams.m */,
+				C772E13E21231A92001B8A11 /* GPSRestRequester.h */,
+				C772E14E21231A93001B8A11 /* GPSRestRequester.m */,
+				C772E14921231A93001B8A11 /* GPSSigner.h */,
+				C772E14421231A92001B8A11 /* GPSSigner.m */,
+				C772E14221231A92001B8A11 /* GPSTransactionDetails.h */,
+				C772E15321231A93001B8A11 /* GPSTransactionDetails.m */,
+			);
+			name = RFI;
+			sourceTree = "<group>";
+		};
+		F974A4501E50C59300F683BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F974A4511E50C59E00F683BC /* card_3ds_form */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F974A4531E50D0BC00F683BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F974A44A1E50C40400F683BC /* FSGPSAPI.h */,
+				F974A44B1E50C40400F683BC /* FSGPSAPI.m */,
+				F974A4541E50D0D200F683BC /* Entities */,
+				F974A4241E50C39F00F683BC /* GPS */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F974A4541E50D0D200F683BC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F974A44D1E50C49C00F683BC /* FSCreditCard.m */,
+				F974A44E1E50C49C00F683BC /* FSCreditCard.h */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		F974A4551E50D0E300F683BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9739FC01E4ECBBB00613F4E /* ViewController.h */,
+				F9739FC11E4ECBBB00613F4E /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F974A4561E50D0F100F683BC /* App Deligate */ = {
+			isa = PBXGroup;
+			children = (
+				F9739FBD1E4ECBBB00613F4E /* AppDelegate.h */,
+				F9739FBE1E4ECBBB00613F4E /* AppDelegate.m */,
+			);
+			name = "App Deligate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9739FB61E4ECBBB00613F4E /* paymentnepaldemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9739FCE1E4ECBBB00613F4E /* Build configuration list for PBXNativeTarget "paymentnepaldemo" */;
+			buildPhases = (
+				4944D0103E77B09DBC2B37FF /* [CP] Check Pods Manifest.lock */,
+				F9739FB31E4ECBBB00613F4E /* Sources */,
+				F9739FB41E4ECBBB00613F4E /* Frameworks */,
+				F9739FB51E4ECBBB00613F4E /* Resources */,
+				78BE492289F9C88EBCBE3EDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paymentnepaldemo;
+			productName = paymentnepaldemo;
+			productReference = F9739FB71E4ECBBB00613F4E /* paymentnepaldemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9739FAF1E4ECBBB00613F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "paymentnepal";
+				TargetAttributes = {
+					F9739FB61E4ECBBB00613F4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9739FB21E4ECBBB00613F4E /* Build configuration list for PBXProject "paymentnepaldemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9739FAE1E4ECBBB00613F4E;
+			productRefGroup = F9739FB81E4ECBBB00613F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9739FB61E4ECBBB00613F4E /* paymentnepaldemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9739FB51E4ECBBB00613F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9739FCA1E4ECBBB00613F4E /* LaunchScreen.storyboard in Resources */,
+				F9739FC71E4ECBBB00613F4E /* Assets.xcassets in Resources */,
+				C772E15A21231A94001B8A11 /* README.md in Resources */,
+				F9739FC51E4ECBBB00613F4E /* Main.storyboard in Resources */,
+				F974A4521E50C59E00F683BC /* card_3ds_form in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4944D0103E77B09DBC2B37FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rfidemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BE492289F9C88EBCBE3EDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-paymentnepaldemo/Pods-paymentnepaldemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-paymentnepaldemo/Pods-paymentnepaldemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9739FB31E4ECBBB00613F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9739FC21E4ECBBB00613F4E /* ViewController.m in Sources */,
+				C772E15E21231A94001B8A11 /* GPSReccurentParams.m in Sources */,
+				C772E16321231A94001B8A11 /* GPSConnectionProfile.m in Sources */,
+				C772E16221231A94001B8A11 /* GPSRestRequester.m in Sources */,
+				C772E15B21231A94001B8A11 /* GPSSigner.m in Sources */,
+				F974A44F1E50C49C00F683BC /* FSCreditCard.m in Sources */,
+				C772E16621231A94001B8A11 /* GPSPayService.m in Sources */,
+				F974A44C1E50C40400F683BC /* FSGPSAPI.m in Sources */,
+				C772E15921231A94001B8A11 /* GPSHelpers.m in Sources */,
+				C772E15C21231A94001B8A11 /* GPSPaymentResponse.m in Sources */,
+				F9739FBF1E4ECBBB00613F4E /* AppDelegate.m in Sources */,
+				C772E15F21231A94001B8A11 /* GPSCardThreeDs.m in Sources */,
+				C772E16021231A94001B8A11 /* GPSCommissionMode.m in Sources */,
+				F9739FBC1E4ECBBB00613F4E /* main.m in Sources */,
+				C772E16521231A94001B8A11 /* GPSCardTokenRequest.m in Sources */,
+				C772E15D21231A94001B8A11 /* GPSPaymentRequest.m in Sources */,
+				C772E16121231A94001B8A11 /* GPSCardTokenResponse.m in Sources */,
+				C772E16421231A94001B8A11 /* GPSTransactionDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9739FC31E4ECBBB00613F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9739FC41E4ECBBB00613F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9739FC81E4ECBBB00613F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9739FC91E4ECBBB00613F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9739FCC1E4ECBBB00613F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9739FCD1E4ECBBB00613F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9739FCF1E4ECBBB00613F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1B3D206A268082266AFBA1 /* Pods-paymentnepaldemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = paymentnepaldemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yugs.apps.paymentnepaldemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9739FD01E4ECBBB00613F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E37A5800C84CF6AD288567 /* Pods-paymentnepaldemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = paymentnepaldemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yugs.apps.paymentnepaldemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9739FB21E4ECBBB00613F4E /* Build configuration list for PBXProject "paymentnepaldemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9739FCC1E4ECBBB00613F4E /* Debug */,
+				F9739FCD1E4ECBBB00613F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9739FCE1E4ECBBB00613F4E /* Build configuration list for PBXNativeTarget "paymentnepaldemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9739FCF1E4ECBBB00613F4E /* Debug */,
+				F9739FD01E4ECBBB00613F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9739FAF1E4ECBBB00613F4E /* Project object */;
+}
